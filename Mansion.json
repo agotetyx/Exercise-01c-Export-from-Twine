@@ -1,0 +1,282 @@
+{
+  "passages": [
+    {
+      "text": "You wake up in a bed, the sun shuning bright on your face. You sit up and look around. The bed you are sleeping in, is massive with a tall and thick wooden poster on each corner. The window is also large and the curtins seem to have been consumed by insects, letting all the light inside. There is a mirror opposite the bed, but it is too dirty to get a good look at yourself.\nYou realize that you don't know where you are.\nWhat do you want to do?\n[[Go back to sleep]]\n[[Leave the bed]]",
+      "links": [
+        {
+          "name": "Go back to sleep",
+          "link": "Go back to sleep",
+          "pid": "3"
+        },
+        {
+          "name": "Leave the bed",
+          "link": "Leave the bed",
+          "pid": "2"
+        }
+      ],
+      "name": "Room #1",
+      "pid": "1",
+      "position": {
+        "x": "239.5",
+        "y": "236"
+      }
+    },
+    {
+      "text": "You get off the bed and look around the room. Everything looked old and delapidated, yet the sheets seemed relatively new. \n[[Leave the room]]\n[[Look out the window]]",
+      "links": [
+        {
+          "name": "Leave the room",
+          "link": "Leave the room",
+          "pid": "5"
+        },
+        {
+          "name": "Look out the window",
+          "link": "Look out the window",
+          "pid": "6"
+        }
+      ],
+      "name": "Leave the bed",
+      "pid": "2",
+      "position": {
+        "x": "315.5",
+        "y": "387"
+      }
+    },
+    {
+      "text": "You are woken up by a loud crashing sound. Something seems to have broken downstairs. What is going on?\n[[Back to sleep]]\n[[Leave the bed]]",
+      "links": [
+        {
+          "name": "Back to sleep",
+          "link": "Back to sleep",
+          "pid": "4"
+        },
+        {
+          "name": "Leave the bed",
+          "link": "Leave the bed",
+          "pid": "2"
+        }
+      ],
+      "name": "Go back to sleep",
+      "pid": "3",
+      "position": {
+        "x": "193.5",
+        "y": "387"
+      }
+    },
+    {
+      "text": " You wake up and there is someone at the foot of your bed. He claps his hands and laughs eagerly, as if he has been waiting for this moment for a while.\n He approaches you with knife and kills you. \n [[Restart ->Room #1]] ",
+      "links": [
+        {
+          "name": "Restart ",
+          "link": "Room #1",
+          "pid": "1"
+        }
+      ],
+      "name": "Back to sleep",
+      "pid": "4",
+      "position": {
+        "x": "193.5",
+        "y": "536"
+      }
+    },
+    {
+      "text": "You are standing in a hallway right outside the room you woke up in. The hallway stretches across to the left and right with a door on both sides. \nThere is a long arching stariwell directly in front of you.\nThe door on the left seems to have wooden planks nailed onto it. \nThe one on the right seems uninpiring.\n[[Head down the stairs->Living Room]]\n[[Left -> Planked Door]]\n[[Right ->Door]]\n[[Head back into the room -> Room]] ",
+      "links": [
+        {
+          "name": "Head down the stairs",
+          "link": "Living Room",
+          "pid": "8"
+        },
+        {
+          "name": "Left ",
+          "link": " Planked Door",
+          "pid": "9"
+        },
+        {
+          "name": "Right ",
+          "link": "Door",
+          "pid": "10"
+        },
+        {
+          "name": "Head back into the room ",
+          "link": " Room",
+          "pid": "7"
+        }
+      ],
+      "name": "Leave the room",
+      "pid": "5",
+      "position": {
+        "x": "318.5",
+        "y": "543"
+      }
+    },
+    {
+      "text": "You look out of the tall arched floor to ceiling windows. You see the pale winter sunlight gloomily light the the marshes. There is gray mmist everywhere and a low whistling wind blows. \n[[Leave -> Room]]",
+      "links": [
+        {
+          "name": "Leave ",
+          "link": " Room",
+          "pid": "7"
+        }
+      ],
+      "name": "Look out the window",
+      "pid": "6",
+      "position": {
+        "x": "431.5",
+        "y": "539"
+      }
+    },
+    {
+      "text": "You are in a strange room with a large four-post bed to one side and a shelf to the other. A dirty mirror hangs over the dusty memorabilia placed on the shelf. Right across from the entrane of the room are huge floor to ceiling windows with arched tops.\n[[Look out the window]] \n[[Leave the room]]\n[[Get into bed ->Back to sleep]]",
+      "links": [
+        {
+          "name": "Look out the window",
+          "link": "Look out the window",
+          "pid": "6"
+        },
+        {
+          "name": "Leave the room",
+          "link": "Leave the room",
+          "pid": "5"
+        },
+        {
+          "name": "Get into bed ",
+          "link": "Back to sleep",
+          "pid": "4"
+        }
+      ],
+      "name": " Room",
+      "pid": "7",
+      "position": {
+        "x": "440.5",
+        "y": "756"
+      }
+    },
+    {
+      "text": "You are at the foot of the staircase in a massive living room with an  extremely tall ceiling. The flooring is made of black and white checkered marble and the furniture all seems to be Victorian. However, everything is in a very worn-out state. The upholstery and drapes have been attacked by pests and the giant chaldelier is very precariously suspended.\nThe main door of the house is opposite you.\n[[Leave the house]]\n[[Head back up ->Leave the room]] ",
+      "links": [
+        {
+          "name": "Leave the house",
+          "link": "Leave the house",
+          "pid": "13"
+        },
+        {
+          "name": "Head back up ",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": "Living Room",
+      "pid": "8",
+      "position": {
+        "x": "165.5",
+        "y": "687"
+      }
+    },
+    {
+      "text": "The door looks like it has intentionally been nailed shut. The handle has been broken off and there is a huge rusted lock hanging from the latch. It seems to have been locked forever ago.\n[[Open the door]]\n[[Hallway ->Leave the room]] ",
+      "links": [
+        {
+          "name": "Open the door",
+          "link": "Open the door",
+          "pid": "11"
+        },
+        {
+          "name": "Hallway ",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": " Planked Door",
+      "pid": "9",
+      "position": {
+        "x": "315.5",
+        "y": "687"
+      }
+    },
+    {
+      "text": "There is nothing really interesting about the door. The handle seems intact and there is a broken lock on the floor. \n[[Enter the room -> Room #2]]\n[[Hallway ->Leave the room]] ",
+      "links": [
+        {
+          "name": "Enter the room ",
+          "link": " Room #2",
+          "pid": "12"
+        },
+        {
+          "name": "Hallway ",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": "Door",
+      "pid": "10",
+      "position": {
+        "x": "551.5",
+        "y": "687"
+      }
+    },
+    {
+      "text": "The door wont budge.\n[[Try again ->Open the door]] \n[[Leave -> Planked Door]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Open the door",
+          "pid": "11"
+        },
+        {
+          "name": "Leave ",
+          "link": " Planked Door",
+          "pid": "9"
+        }
+      ],
+      "name": "Open the door",
+      "pid": "11",
+      "position": {
+        "x": "377.5",
+        "y": "872"
+      }
+    },
+    {
+      "text": "The room is dark and dingy. All the furniture is stacked up and covered by huge white sheets. The windows have been boarded out to prevent sunlight entering. There are large chests stacked n top of each other as well.\n[[Leave the room]] ",
+      "links": [
+        {
+          "name": "Leave the room",
+          "link": "Leave the room",
+          "pid": "5"
+        }
+      ],
+      "name": " Room #2",
+      "pid": "12",
+      "position": {
+        "x": "551.5",
+        "y": "837"
+      }
+    },
+    {
+      "text": "The door won't budge.\n[[Try again ->Leave the house]] \n[[Leave ->Living Room]] ",
+      "links": [
+        {
+          "name": "Try again ",
+          "link": "Leave the house",
+          "pid": "13"
+        },
+        {
+          "name": "Leave ",
+          "link": "Living Room",
+          "pid": "8"
+        }
+      ],
+      "name": "Leave the house",
+      "pid": "13",
+      "position": {
+        "x": "152.5",
+        "y": "865"
+      }
+    }
+  ],
+  "name": "Mansion",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "5B0C16E3-6441-44E4-A0AC-02E097663905"
+}
